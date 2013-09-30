@@ -11,7 +11,7 @@ $(function(){
   });
 
 
-  $('#comment_area').on('submit', '#new_comment', function(e) {
+  $('#comment_area').on('click', '#submit_comment', function(e) {
     e.preventDefault();
     var comment = $('#new_comment_text').val();
     var author = $('#authorName').val();
